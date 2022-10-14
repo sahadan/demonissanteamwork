@@ -1,0 +1,23 @@
+.container{
+    top:20px;
+    width:25%;
+    margin:auto;
+    background-color: #f5f5f5;
+    border: 1px black solid;
+    padding: 50px;
+    border-radius: 10px;
+}
+form>h2{
+    text-align: center;
+}
+.form-item{
+
+    box-sizing: border-box;
+    margin: 15px;
+}
+.form-item>label{
+    display: block;
+}
+.form-item>input[type="text"]{
+    width: 100%;
+}

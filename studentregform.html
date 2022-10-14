@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <!--Registration Form-->
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body bgcolor="cyan">
+        <h1 align = "center">Student Registration Form</h1>
+        <!--marquee-->
+        <marquee direction=left><h1>Fill up the Registration form by 10/11/2022</h1></marquee>
+        <!--Form with table-->
+        <div>
+
+       
+        <form name="regform" method="post" action="./success.html">
+
+            <table cellpadding="8" align="center">
+                <!--Image-->
+                <tr>
+                    <td></td>
+                    <td><img src="ajaypr.jpg" height="200" width="200"></td>
+                </tr>
+                <!--Text-->
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="stu_name" maxlength="20"/></td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td><input type="text" name="stu_mobile" maxlength="10"></input></td>
+                </tr>
+                <!--Radio Button-->
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="Male">Male</input>
+                        <input type="radio" name="gender" value="Female">Female</input>
+                        <input type="radio" name="gender" value="Other">Other</input>
+                    </td>
+                </tr>
+                <!--CheckBox-->
+                <tr>
+                    <td>Hobbies:</td>
+                    <td><input type="checkbox" name="hobbies" value="Drawing"/>Drawing
+                        <input type="checkbox" name="hobbies" value="Singing"/>Singing
+                        <input type="checkbox" name="hobbies" value="Reading"/>Reading
+                        <input type="checkbox" name="hobbies" value="Dancing"/>Dancing
+                    </td>
+                </tr>
+                <!--Textarea-->
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="Address" rows="5" cols="40"></textarea>
+                    </td>
+                </tr>
+                <!--Text -->
+                <tr>
+                    <td>User Name: </td>
+                    <td><input type="text" name="uname"></td>
+                </tr>
+                <!--password-->
+                <tr>
+                    <td>Password : </td>
+                    <td><input type="password" name="uname"></td>
+                </tr>
+                <!--Date-->
+                <tr>
+                    <td>DOB: </td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <!--Combo box-->
+                <tr>
+                    <td>Course Name:</td>
+                    <td>
+                        <select name="course">
+                               <<option value="java">Java<</option> >
+                               <option value="c#">C#</option>
+					            <option value="php">PHP</option>
+					            <option value="python">Python</option>
+					            <option value="ruby">Ruby</option>
+                        </select>    
+                    </td>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Register">
+                            <input type="reset" value="Clear">
+                        </td>
+                    </tr>
+                </tr>    
+
+
+            </table>
+        </form> 
+    </div>
+    
+    </body>
+
+</html>
